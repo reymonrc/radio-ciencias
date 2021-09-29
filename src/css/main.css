@@ -30,3 +30,9 @@ a {
 .content {
   padding: 0 32px;
 }
+
+h1 {
+    font: 60 20px/1.2 'Arizonia', Helvetica, sans-serif;
+    color: #07565a;
+    text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.1);
+}
