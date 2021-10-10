@@ -5,14 +5,7 @@ import "./css/main.css";
 // Say hello
 console.log("🦊 Hello! Edit me in src/index.js");
 
-import MotionMachine from "./smoke.js";
-
-var canvas = document.getElementById('canvas')
-var ctx = canvas.getContext('2d')
-canvas.width = innerWidth
-canvas.height = innerHeight
-// smokemachine(context, [r,g,b])
-var demo = MotionMachine(ctx, [54, 16.8, 18.2])
+import MotionMachine from "./js/smoke.js";
 
 			function sleep(ms)
 			{
@@ -21,16 +14,16 @@ var demo = MotionMachine(ctx, [54, 16.8, 18.2])
 
 			function play_tune()
 			{
-				document.getElementById("character").src = "./imgs/logo_".concat((new Date().getSeconds())%11 + 1).concat(".png");
+				document.getElementById("character").src = "./img/jigs4w.jpeg");
 				play = 1;
 
 				var myAudio = document.getElementById('my_audio');
-				myAudio.src = "./mp3/wr3ckord_".concat((new Date().getSeconds())%no_wr3ckords + 1).concat(".mp3");
+				myAudio.src = "./mp3/wr3ckord_2.mp3");
 				myAudio.play();
 			}
 			function toggle_banner()
 			{
-				document.getElementById("wr3cked").src = "./imgs/banner_".concat((new Date().getSeconds())%11 + 1).concat(".png");
+				document.getElementById("wr3cked").src = "./img/jigs4w.jpeg");
 			}
 
 			var canvas = document.getElementById('canvas')

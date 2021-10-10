@@ -57,7 +57,7 @@ br
 @font-face
 {
 	font-family:"brutal";
-	src: url("../ttf/Brutalworld.ttf") format("truetype");
+	src: url("../fonts/Brutalworld.ttf") format("truetype");
 	background-color: #0e0f0f !important;
 	text-decoration:none;
 }
