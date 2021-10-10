@@ -5,7 +5,7 @@ import "./css/main.css";
 // Say hello
 console.log("🦊 Hello! Edit me in src/index.js");
 
-import "./smoke.js";
+import MotionMachine from "./smoke.js";
 
 var canvas = document.getElementById('canvas')
 var ctx = canvas.getContext('2d')
@@ -41,7 +41,7 @@ var demo = MotionMachine(ctx, [54, 16.8, 18.2])
 			var c1 = Math.floor(Math.random() * 250);
 			var c2 = Math.floor(Math.random() * 250);
 			var c3 = Math.floor(Math.random() * 250);
-			var party = motionmachine(ctx, [c1, c2, c3]);
+			var party = MotionMachine(ctx, [c1, c2, c3]);
 			party.start() // start animating
 
 			var type = Math.floor(Math.random() * 4);
