@@ -1,0 +1,159 @@
+html
+{
+	background: #0e0f0f;
+	overflow-y: scroll;
+	position: absolute;
+	margin: 0;
+	width: 100%;
+	overflow: hidden;
+	height: 100%;
+
+	-webkit-touch-callout: none; /* iOS Safari */
+	  -webkit-user-select: none; /* Safari */
+	   -khtml-user-select: none; /* Konqueror HTML */
+	     -moz-user-select: none; /* Firefox */
+	      -ms-user-select: none; /* Internet Explorer/Edge */
+	          user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+img
+{
+	max-width: 80%;
+	max-height: 90vh;
+	border-radius: 10px;
+}
+
+div.content
+{
+	/*background:#484848;*/
+
+	display: table;
+
+	width: 100%;
+	max-width: 800px !important;
+	margin: 0 auto;
+
+	margin-bottom: 40px !important;
+
+	word-wrap:break-word;
+
+	font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+
+	/*-moz-box-shadow: 3px 3px 5px #202020;
+	-webkit-box-shadow: 3px 3px 5px #202020;
+	box-shadow: 3px 3px 5px #202020;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;*/
+}
+
+br
+{
+	-webkit-user-select: none; /* Chrome/Safari */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+ */
+}
+
+@font-face
+{
+	font-family:"brutal";
+	src: url("../ttf/Brutalworld.ttf") format("truetype");
+	background-color: #0e0f0f !important;
+	text-decoration:none;
+}
+
+a
+{
+	text-decoration:none;
+	color: #0e0f0f !important;
+}
+
+a:hover
+{
+	text-decoration:none;
+	color: #2adb3b !important;
+}
+
+menu
+{
+	position: fixed;
+	top: 60px;
+	right: 50px;
+	font-family:'brutal';
+}
+
+#picz
+{
+	position: absolute;
+	left: -35%;
+	opacity: 0.0;
+
+	transition-property: color;
+	-o-transition:1s;
+	-ms-transition:1s;
+	-moz-transition:1s;
+	-webkit-transition:1s;
+	/* ...and now for the proper property */
+	transition:1s;
+}
+
+#picz:hover
+{
+	opacity: 1.0;
+
+	top: 5%;
+	left:5%;
+
+	transition-property: color;
+	-o-transition:1s;
+	-ms-transition:1s;
+	-moz-transition:1s;
+	-webkit-transition:1s;
+	/* ...and now for the proper property */
+	transition:1s;
+}
+
+#smoke
+{
+	position: absolute;
+	top: 95%;
+	text-align: center;
+	opacity: 0.4;
+
+	transition-property: color;
+	-o-transition:1s;
+	-ms-transition:1s;
+	-moz-transition:1s;
+	-webkit-transition:1s;
+	/* ...and now for the proper property */
+	transition:1s;
+}
+
+#smoke:hover
+{
+	top:-70%;/*10%;*/
+	left:15%;
+	size:50%;
+	margin-top:-20px;
+	margin-bottom:-20px;
+	opacity: 1.0;
+
+	transition-property: color;
+	-o-transition:1s;
+	-ms-transition:1s;
+	-moz-transition:1s;
+	-webkit-transition:1s;
+	/* ...and now for the proper property */
+	transition:1s;
+}
+
+.noselect
+{
+	-webkit-touch-callout: none; /* iOS Safari */
+	  -webkit-user-select: none; /* Safari */
+ 	   -khtml-user-select: none; /* Konqueror HTML */
+   	     -moz-user-select: none; /* Firefox */
+	      -ms-user-select: none; /* Internet Explorer/Edge */
+	          user-select: none; /* Non-prefixed version, currently
+	                                supported by Chrome and Opera */
+}
