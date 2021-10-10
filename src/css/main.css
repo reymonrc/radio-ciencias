@@ -2,7 +2,7 @@
   You can use import statements to include partials:
  */
 @import 'imports/reset.css';
-
+@import 'imports/pagestyle.css';
 /*
   Or add your statements here:
  */
