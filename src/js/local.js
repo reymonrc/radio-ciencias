@@ -229,4 +229,3 @@ function setup_audio_continuer()
 				myAudio.src = "./mp3/wr3ckord_2.mp3";
 				myAudio.play();
 			}
-		</script>
