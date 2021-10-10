@@ -14,16 +14,16 @@ import MotionMachine from "./js/smoke.js";
 
 			function play_tune()
 			{
-				document.getElementById("character").src = "./img/jigs4w.jpeg");
+				document.getElementById("character").src = "./img/jigs4w.jpeg";
 				play = 1;
 
 				var myAudio = document.getElementById('my_audio');
-				myAudio.src = "./mp3/wr3ckord_2.mp3");
+				myAudio.src = "./mp3/wr3ckord_2.mp3";
 				myAudio.play();
 			}
 			function toggle_banner()
 			{
-				document.getElementById("wr3cked").src = "./img/jigs4w.jpeg");
+				document.getElementById("wr3cked").src = "./img/jigs4w.jpeg";
 			}
 
 			var canvas = document.getElementById('canvas')
