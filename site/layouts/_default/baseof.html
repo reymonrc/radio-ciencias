@@ -123,7 +123,22 @@ function setup_audio_continuer()
 				myAudio.src = "./mp3/wr3ckord_2.mp3";
 				myAudio.play();
 			}
+</script>
+</head>
 
+<body onclick="play_tune()" onmousemove="toggle_banner()" onkeydown="keyPressEvent(event)">
+
+  {{ block "header" . }}{{ partial "header" . }}{{end}}
+
+  {{ block "main" . }}{{end}}
+
+  {{ block "footer" . }}{{ partial "footer" . }}{{end}}
+
+  {{ $script := .Site.Data.webpack.main }}
+  {{ with $script.js }}
+    <script src="{{ relURL . }}"></script>
+  {{ end }}
+ <script>
 			function sleep(ms)
 			{
 				return new Promise(resolve => setTimeout(resolve, ms));
@@ -249,20 +264,6 @@ function toggle_banner()
 			}
 
 </script>
-</head>
-
-<body onclick="play_tune()" onmousemove="toggle_banner()" onkeydown="keyPressEvent(event)">
-
-  {{ block "header" . }}{{ partial "header" . }}{{end}}
-
-  {{ block "main" . }}{{end}}
-
-  {{ block "footer" . }}{{ partial "footer" . }}{{end}}
-
-  {{ $script := .Site.Data.webpack.main }}
-  {{ with $script.js }}
-    <script src="{{ relURL . }}"></script>
-  {{ end }}
 </body>
 
 </html>
