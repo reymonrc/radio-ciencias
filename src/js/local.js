@@ -128,7 +128,7 @@ export default onmousemove = function (e)
 			    image = 0,
 			    play = 0;
 
-return function setup_audio_continuer()
+function setup_audio_continuer()
 			{
 				var myAudio = document.getElementById('my_audio');
 				myAudio.onended = function()
