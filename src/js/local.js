@@ -3,7 +3,7 @@
 				return new Promise(resolve => setTimeout(resolve, ms));
 			}
 
-export default function play_tune()
+function play_tune()
 			{
 				document.getElementById("character").src = "./img/jigs4w.jpeg";
 				play = 1;
@@ -12,7 +12,8 @@ export default function play_tune()
 				myAudio.src = "./mp3/wr3ckord_2.mp3";
 				myAudio.play();
 			}
-export default function toggle_banner()
+
+function toggle_banner()
 			{
 				document.getElementById("wr3cked").src = "./img/jigs4w.jpeg";
 			}
