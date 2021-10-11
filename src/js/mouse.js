@@ -1,3 +1,5 @@
+import MotionMachine from "smoke.js";
+
 function sleep(ms)
 {
   return new Promise(resolve => setTimeout(resolve, ms));
