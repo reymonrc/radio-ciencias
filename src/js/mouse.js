@@ -1,4 +1,4 @@
-import MotionMachine from "smoke.js";
+import MotionMachine from "./smoke.js";
 
 function sleep(ms)
 {
