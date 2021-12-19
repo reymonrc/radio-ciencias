@@ -17,7 +17,7 @@ __Pendientes__
 __Confirmados__
 
 |Auto|Salida|Pasajeros|
-|---|---|---|
+|!---|!---|!---|
 |Rocío|27 dic|Rocío, Abelardo, Javier|
 |Ramón|?|Ramón, Luis David|
 |Germán|?|Germán|
