@@ -17,6 +17,11 @@ html
                                   supported by Chrome and Opera */
 }
 
+th, td {
+  border: 1px solid black;
+  padding: 15px;
+}
+
 img
 {
 	max-width: 80%;
