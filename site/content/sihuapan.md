@@ -12,6 +12,22 @@ draft: false
 
 ### Pendientes
 
-- Llevar tus sábanas
+- Llevar tus sábanas y toallas
+- Llevar para cocinar _la cena_
+  - Bacalao
+  - Lomo
+
+### Confirmados
+
+- Ramón
+- Luis David
+- Rocío
+- Javier
+- Germán
+- Abelardo
+
+### Planes
+
+- Visita a [San Lorenzo](https://www.inah.gob.mx/zonas/186-zona-arqueologica-de-san-lorenzo-tenochtitlan)
 
 ## ¡¡Bienvenido!! 😸
