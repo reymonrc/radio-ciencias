@@ -19,8 +19,14 @@ html
 
 th, td {
   border: 1px solid grey;
+  border-collapse: collapse;
   padding: 5px;
 }
+
+thead th, tfoot th {
+  font-family: 'Rock Salt', cursive;
+}
+
 
 img
 {
