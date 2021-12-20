@@ -16,10 +16,10 @@ __Pendientes__
 
 __Confirmados__
 
-|Auto|Salida|Pasajeros|
-|:---|:---|:---|
-|Rocío|27 dic|Rocío, Abelardo, Javier|
-|Ramón|?|Ramón, Luis David|
+|Auto|Salida|Pasajeros|Regreso|
+|:---|:---|:---|:---|
+|Rocío|27 dic|Rocío, Abelardo, Javier|1 ene|
+|Ramón|?|Ramón, Luis David|2 ene|
 |Germán|?|Germán|
 
 __Planes__
