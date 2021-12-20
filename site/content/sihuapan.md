@@ -11,8 +11,8 @@ draft: false
 __Pendientes__
 
 - Llevar tus sábanas y toallas
-- Llevar para cocinar _la cena_
-  - Bacalao, lomo
+- Llevar ingrediendetes no frescos para cocinar _la cena_: Bacalao y lomo
+- Llevar repelente, flit y plaquitas de ser necesario para los 🦟🦟.
 
 __Confirmados__
 
@@ -24,6 +24,6 @@ __Confirmados__
 
 __Planes__
 
-- Visita a [San Lorenzo](https://www.inah.gob.mx/zonas/186-zona-arqueologica-de-san-lorenzo-tenochtitlan)
+- Visita a [San Lorenzo Tenochtitlan](https://www.inah.gob.mx/zonas/186-zona-arqueologica-de-san-lorenzo-tenochtitlan)
 
 ## ¡¡Bienvenido!! 😸
