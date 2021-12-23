@@ -24,6 +24,6 @@ __Confirmados__
 
 __Planes__
 
-- Visita a [San Lorenzo Tenochtitlan](https://www.inah.gob.mx/zonas/186-zona-arqueologica-de-san-lorenzo-tenochtitlan)
+- Visita a [San Lorenzo Tenochtitlan](https://www.inah.gob.mx/zonas/186-zona-arqueologica-de-san-lorenzo-tenochtitlan) ([ruta](https://goo.gl/maps/2eEhrCodds7hzbjj9))
 
 ## ¡¡Bienvenido!! 😸
