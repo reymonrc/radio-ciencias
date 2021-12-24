@@ -15,7 +15,7 @@
   {{ end }}
 </head>
 
-<body onload="setup_audio_continuer()" onclick="play_tune()" onmousemove="toggle_banner()" onkeydown="keyPressEvent(event)">
+<body {{ block "init" . }}{{ end }}>
 
   {{ block "header" . }}{{ partial "header" . }}{{end}}
 
