@@ -45,7 +45,7 @@ draft: false
 - [4 Web Scraping Projects That Will Help Automate Your Life](https://medium.com/geekculture/4-web-scraping-projects-that-will-help-automate-your-life-6c6d43aefeb5)
 - [Mito](https://docs.trymito.io/)
 - Mithril
-  - [](https://ifgeekthen.nttdata.com/es/mithriljs-un-framework-javascript-de-moda)
+  - [un framework JavaScript de moda](https://ifgeekthen.nttdata.com/es/mithriljs-un-framework-javascript-de-moda)
   - [Getting Started](https://mithril.js.org/archive/v0.1/getting-started.html)
   - [A tutorial: I](https://gilbert.ghost.io/mithril-js-tutorial-1/)
   - [Tutorial](https://vegibit.com/mithril-javascript-tutorial/)
