@@ -18,8 +18,8 @@ __Confirmados__
 
 |Auto|Salida|Pasajeros|Regreso|
 |:---|:---|:---|:---|
-|Rocío|27 dic|Rocío, Javier, Germán?|2 ene|
-|Ana|27 dic|Abelardo, Javier|2 ene|
+|Rocío|27 dic|Rocío, Germán?|2 ene|
+|Ana|27 dic|Ana, Abelardo, Javier|2 ene|
 |Ramón|6|Ramón, Luis David|2 ene|
 
 __Planes__
