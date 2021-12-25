@@ -7,6 +7,7 @@ draft: false
 # Sihuapan, Ver. 21-22
 
 # [Ubicación](https://goo.gl/maps/F3jMp318GJ1XLAGf9 "Entrar por las memelas")
+De camino: [Comida 1](https://goo.gl/maps/32eTJbFTU5xgHSwm8 "Mariscos") [Comida 2](https://goo.gl/maps/oVpedmBTy2xSv7Vc9 "Regional")
 
 __Pendientes__
 
