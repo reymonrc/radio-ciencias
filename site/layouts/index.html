@@ -1,3 +1,4 @@
+{{ define "init" }}onload="setup_audio_continuer()" onclick="play_tune()" onmousemove="toggle_banner()" onkeydown="keyPressEvent(event)"{{ end }}
 {{ define "main" }}
 <div class="content">
 	<h1>RC</h1>
@@ -10,5 +11,6 @@
 </div>
 <canvas id="canvas"></canvas>
 <audio id="my_audio"></audio>
-<div>
+</div>
+<script src="./js/head.js"></script>
     {{ end }}
