@@ -32,7 +32,13 @@ a {
 }
 
 h1 {
-    font: 60 30px/1.2 'Arizonia', Helvetica, sans-serif;
+    font: 60 40px/1.2 'Arizonia', Helvetica, sans-serif;
     color: #da472d;
+    text-shadow: 5px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    font-family: 'Arizonia', Helvetica, sans-serif;
+    color: #abdbe3;
     text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.1);
 }
