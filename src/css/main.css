@@ -58,7 +58,7 @@ p,h4{
     position: relative;
     top: -1.4em;
     height: 6em;
-    background-image: url('../img/fantasmitas2.jpg');
+    background-image: url('../img/fantasmitas2.png');
     justify-content: center;
     align-items: center;
     font-size: 3em;
@@ -77,7 +77,7 @@ p,h4{
 }
 article{
   overflow: hidden;
-  background-image: url('../img/fantasmitas2.jpg');
+  background-image: url('../img/fantasmitas2.png');
   background-size: cover;
 
 }
