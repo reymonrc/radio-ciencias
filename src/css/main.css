@@ -18,9 +18,8 @@ body, table {
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-size: cover;
+  background-color: #000000;
   color: white;
-  overflow-x: hidden;
 }
 
 a {
@@ -28,60 +27,18 @@ a {
   text-decoration: none;
 }
 
+.content {
+  padding: 0 32px;
+}
 
-h1,h2{
+h1 {
+    font: 60 40px/1.2 'Arizonia', Helvetica, sans-serif;
+    color: #da472d;
     text-shadow: 5px 5px 0px rgba(0, 0, 0, 0.1);
 }
 
 h3 {
     font-family: 'Arizonia', Helvetica, sans-serif;
-    color: black;
+    color: #abdbe3;
     text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.1);
 }
-p,h4{
-  position: relative;
-  top:-3em;
-}
-#cienzontles{
-  display: flex;
-  background-color: #3B190C;
-  position: relative;
-  width: 100%;
-  height: 2em;
-  align-items: center;
-  padding-left: 10px;
-  top: -30px;
-}
-#santa-rosa-cintepec{
-  display: flex;
-    width: 100%;
-    position: relative;
-    top: -1.4em;
-    height: 6em;
-    background-image: url('../img/fantasmitas2.png');
-    justify-content: center;
-    align-items: center;
-    font-size: 3em;
-}
-#sabado-15-de-octubre-de-2022---1100-am{
-  position: absolute;
-  top: 15em;
-  display: flex;
-  width: 100%;
-  height: 3em;
-  background-color: #754829;
-  color:white;
-  font-family: Arial, Helvetica, sans-serif;
-  justify-content: center;
-  align-items: center;
-}
-article{
-  overflow: hidden;
-  background-image: url('../img/fantasmitas2.png');
-  background-size: cover;
-
-}
-
-
-
-

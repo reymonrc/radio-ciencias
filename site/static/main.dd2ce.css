@@ -1,0 +1,102 @@
+/*
+  You can use import statements to include partials:
+ */
+@import 'imports/reset.css';
+@import 'imports/pagestyle.css';
+/*
+  Or add your statements here:
+ */
+body, table {
+  font-size: calc(10px + 1vmin);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+    'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  display: contents;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-size: cover;
+  color: white;
+  overflow-x: hidden;
+}
+
+a {
+  color: pink;
+  text-decoration: none;
+}
+
+
+h1 {
+    font: 60 40px/1.2 'Arizonia', Helvetica, sans-serif;
+    color: #da472d;
+    text-shadow: 5px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    font-family: 'Arizonia', Helvetica, sans-serif;
+    color: black;
+    text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.1);
+}
+#navC{
+  text-align: left;
+  position: absolute;
+  background-color: #3B190C;
+  height: 3em;
+  width: 100%;
+}
+#navC > p {
+  padding-left: 10px;
+}
+#headerC > div{
+  position: absolute;
+  background-image: url('../img/fantasmitas.jpg');
+  background-size:cover ;
+  opacity: .5;
+  width: 100%;
+  height: 12em;
+  z-index: -1;
+}
+#headerC{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top:3em;
+  position: absolute;
+  height: 12em;
+  width: 100%;
+}
+#headerC > h1{
+  color: white;
+  text-shadow: 3px black;
+  font-size: 4em;
+  font-weight: bolder;
+}
+#navC2{
+  width: 100%;
+  height: 3.5em;
+  background-color: #754829;
+  position: absolute;
+  top:14em;
+}
+
+#contentC{
+  width: 100%;
+  position: absolute;
+  top: 17.5em;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  background-image: url('../img/fantasmitas2.png');
+  color: black;
+  padding-bottom: 4em;
+}
+#contentC > div{
+  width: 70%;
+
+}
+
+
+
