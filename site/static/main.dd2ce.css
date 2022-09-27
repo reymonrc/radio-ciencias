@@ -23,27 +23,19 @@ body, table {
   overflow-x: hidden;
 }
 
-a {
-  color: pink;
-  text-decoration: none;
-}
-
-
 h1 {
     font: 60 40px/1.2 'Arizonia', Helvetica, sans-serif;
-    color: #da472d;
     text-shadow: 5px 5px 0px rgba(0, 0, 0, 0.1);
 }
 
 h3 {
     font-family: 'Arizonia', Helvetica, sans-serif;
-    color: black;
-    text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.1);
+    color: white;
 }
 #navC{
   text-align: left;
   position: absolute;
-  background-color: #3B190C;
+  background-color: #344796;
   height: 3em;
   width: 100%;
 }
@@ -52,12 +44,9 @@ h3 {
 }
 #headerC > div{
   position: absolute;
-  background-image: url('../img/fantasmitas.jpg');
   background-size:cover ;
-  opacity: .5;
   width: 100%;
   height: 12em;
-  z-index: -1;
 }
 #headerC{
   display: flex;
@@ -76,10 +65,10 @@ h3 {
 }
 #navC2{
   width: 100%;
-  height: 3.5em;
-  background-color: #754829;
+  height: 5em;
   position: absolute;
   top:14em;
+  color: white;
 }
 
 #contentC{
@@ -89,8 +78,8 @@ h3 {
   height: auto;
   display: flex;
   justify-content: center;
-  background-image: url('../img/fantasmitas2.png');
-  color: black;
+  background-color: black;
+  color: white;
   padding-bottom: 4em;
 }
 #contentC > div{
